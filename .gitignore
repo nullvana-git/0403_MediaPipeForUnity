@@ -5,6 +5,7 @@
 
 # MediaPipe Unity Plugin (직접 설치 필요)
 /[Aa]ssets/MediaPipeUnity/
+/[Aa]ssets/MediaPipeUnity.meta
 /[Pp]ackages/com.github.homuler.mediapipe/
 .utmp/
 /[Ll]ibrary/
