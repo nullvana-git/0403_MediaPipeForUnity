@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/nullvana/.claude//**)",
+      "Read(//c/Users/nullvana/.claude/**)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); [print\\(k,v\\) for k,v in d.get\\('dependencies',{}\\).items\\(\\) if 'ai' in k.lower\\(\\) or 'mcp' in k.lower\\(\\)]\")",
+      "Bash(cat /c/Users/nullvana/Documents/0403_MediaPipeForUnity/UserSettings/*.json)",
+      "Bash(xargs grep:*)",
+      "Read(//c/Users/nullvana/**)",
+      "Bash(timeout 5 /c/Users/nullvana/.unity/relay/relay_win.exe --mcp)",
+      "Bash(\"c:/Users/nullvana/.unity/relay/relay_win.exe\" --version)",
+      "Bash(cat \"c:/Users/nullvana/.unity/relay/mcp/\"*)",
+      "Bash(tasklist)",
+      "Bash(curl -s http://localhost:9002/mcp/server-status)",
+      "Bash(curl -s -X POST http://localhost:9002/mcp/server-status)",
+      "Bash(curl -s -X POST http://localhost:9002/mcp/start-server)",
+      "Bash(curl -s http://localhost:9002/mcp/call-tool -X POST -H \"Content-Type: application/json\" -d '{\"tool\":\"unity_get_logs\",\"params\":{}}')",
+      "Bash(curl -s http://localhost:9002/mcp/call-tool -X POST -H \"Content-Type: application/json\" -d '{\"serverConfig\":{\"name\":\"unity-mcp\"},\"toolName\":\"unity_get_logs\",\"params\":{}}')",
+      "Bash(curl -s -X POST http://localhost:9002/mcp/start-server -H \"Content-Type: application/json\" -d '{\"name\":\"unity-mcp\",\"command\":\"C:\\\\\\\\Users\\\\\\\\nullvana\\\\\\\\.unity\\\\\\\\relay\\\\\\\\relay_win.exe\",\"args\":[\"--mcp\"]}')",
+      "Bash(curl -s -X POST http://localhost:9002/mcp/start-server -H \"Content-Type: application/json\" -d \"{\\\\\"name\\\\\":\\\\\"unity-mcp\\\\\",\\\\\"command\\\\\":\\\\\"C:/Users/nullvana/.unity/relay/relay_win.exe\\\\\",\\\\\"args\\\\\":[\\\\\"--mcp\\\\\"]}\")",
+      "Bash(curl -s -X POST http://localhost:9002/mcp/start-server -H \"Content-Type: application/json\" -d \"{\\\\\"name\\\\\":\\\\\"unity-mcp\\\\\",\\\\\"command\\\\\":\\\\\"C:/Users/nullvana/.unity/relay/relay_win.exe\\\\\",\\\\\"args\\\\\":[\\\\\"--mcp\\\\\"],\\\\\"transport\\\\\":\\\\\"stdio\\\\\"}\")",
+      "Bash(curl -s http://localhost:9002/mcp/server-status -X GET)",
+      "Bash(curl -s http://localhost:9001)"
+    ]
+  }
+}
