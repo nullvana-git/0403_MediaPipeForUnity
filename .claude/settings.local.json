@@ -20,7 +20,8 @@
       "Bash(curl -s -X POST http://localhost:9002/mcp/start-server -H \"Content-Type: application/json\" -d \"{\\\\\"name\\\\\":\\\\\"unity-mcp\\\\\",\\\\\"command\\\\\":\\\\\"C:/Users/nullvana/.unity/relay/relay_win.exe\\\\\",\\\\\"args\\\\\":[\\\\\"--mcp\\\\\"]}\")",
       "Bash(curl -s -X POST http://localhost:9002/mcp/start-server -H \"Content-Type: application/json\" -d \"{\\\\\"name\\\\\":\\\\\"unity-mcp\\\\\",\\\\\"command\\\\\":\\\\\"C:/Users/nullvana/.unity/relay/relay_win.exe\\\\\",\\\\\"args\\\\\":[\\\\\"--mcp\\\\\"],\\\\\"transport\\\\\":\\\\\"stdio\\\\\"}\")",
       "Bash(curl -s http://localhost:9002/mcp/server-status -X GET)",
-      "Bash(curl -s http://localhost:9001)"
+      "Bash(curl -s http://localhost:9001)",
+      "WebFetch(domain:github.com)"
     ]
   }
 }

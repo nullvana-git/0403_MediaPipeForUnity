@@ -2,6 +2,10 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+
+# MediaPipe Unity Plugin (직접 설치 필요)
+/[Aa]ssets/MediaPipeUnity/
+/[Pp]ackages/com.github.homuler.mediapipe/
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
